@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/sengming/Documents/Xv6/xv6'
+let g:netrw_dirhist_2='/home/sengming/.gconf'
+let g:netrw_dirhist_3='/home/sengming/Documents/p5b/xv6/user'
+let g:netrw_dirhist_4='/src/eclipse-installer/readme'
+let g:netrw_dirhist_5='/home/sengming/Documents/Networks/assign4/.git'
