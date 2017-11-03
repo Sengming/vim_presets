@@ -1,4 +1,5 @@
 execute pathogen#infect()
+autocmd vimenter * NERDTree
 filetype on
 syntax on
 colorscheme Tomorrow-Night
@@ -10,3 +11,4 @@ set smartindent
 set autoindent
 set expandtab
 set hlsearch
+
