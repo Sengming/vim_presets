@@ -1,5 +1,17 @@
 execute pathogen#infect()
 autocmd vimenter * NERDTree
+"function! LoadCCTree()
+"    if filereadable('cscope.out')
+"        CCTreeLoadDB cscope.out
+"    endif
+"endfunc
+"autocmd VimEnter * call LoadCCTree()
+"function! LoadXRef()
+"    if filereadable('xref.out')
+"       CCTreeLoadXRefDB xref.out
+"    endif
+"endfunc
+"autocmd VimEnter * call LoadXRef()
 filetype on
 syntax on
 colorscheme Tomorrow-Night
