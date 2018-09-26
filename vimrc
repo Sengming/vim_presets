@@ -26,7 +26,10 @@ set hlsearch
 set number
 set tags=./tags;/
 set clipboard=unnamed
-:let g:Tlist_WinWidth=40
+:let g:Tlist_WinWidth=25
+:set cursorline
+:hi clear CursorLine
+:hi CursorLine gui=underline cterm=underline
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 " Add CScope support and shortcuts:
 if has('cscope')
